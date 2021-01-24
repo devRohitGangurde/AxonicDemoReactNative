@@ -27,9 +27,8 @@ import {
 
 //Screens
 import SplashScreen from './src/screens/SplashScreen'
-import TVShowDetailScreen from './src/screens/TVShowDetailScreen';
-import TVShowListScreen from './src/screens/TVShowListScreen';
-// import ForgotPasswordScreen from './src/screens/ForgotPasswordScreen'
+import MapScreen from './src/screens/MapScreen';
+import AssignToMeScreen from './src/screens/AssignToMeScreen';
 
 export default class App extends Component {
 
@@ -63,15 +62,15 @@ export default class App extends Component {
                   initial
                 />
                  <Scene
-                  key='TVShowListScreen'
-                  component={TVShowListScreen}
-                  title='TVShowListScreen'
+                  key='AssignToMeScreen'
+                  component={AssignToMeScreen}
+                  title='AssignToMeScreen'
                   hideNavBar
                 />
                 <Scene
-                  key='TVShowDetailScreen'
-                  component={TVShowDetailScreen}
-                  title='TVShowDetailScreen'
+                  key='MapScreen'
+                  component={MapScreen}
+                  title='MapScreen'
                   hideNavBar
                 /> 
               </Stack>

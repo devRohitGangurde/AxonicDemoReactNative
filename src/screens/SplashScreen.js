@@ -10,7 +10,7 @@ export default class SplashScreen extends Component {
 
   componentDidMount() {
     setTimeout(() => {
-      Actions.push("TVShowListScreen")    
+      Actions.replace("AssignToMeScreen")    
     }, 2000) 
   }
 
@@ -24,7 +24,7 @@ export default class SplashScreen extends Component {
           backgroundColor: 'white'
         }}>
           <Text style={{fontWeight:"900",fontSize:20}}>
-            TV Show List App
+            Axonic Test React Native App
           </Text>
         </View>
       </View>
